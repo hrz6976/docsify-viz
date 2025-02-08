@@ -1,0 +1,30 @@
+{
+  "name": "@hrz6976/docsify-viz",
+  "version": "1.0.0",
+  "description": "Rendering Graphviz dot files in docsify.",
+  "main": "src/docsify-viz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/docsify-viz.js --out-file docsify-viz.min.js",
+    "example": "npm run build && docsify serve example/ --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrz6976/docsify-viz.git"
+  },
+  "author": "hrz6976 <hrz6976@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrz6976/docsify-viz/issues"
+  },
+  "homepage": "https://github.com/hrz6976/docsify-viz#readme",
+  "files": [
+    "README.md",
+    "src/",
+    "dist/"
+  ],
+  "devDependencies": {
+    "docsify-cli": "^4.4.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
