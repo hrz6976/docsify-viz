@@ -18,20 +18,20 @@ Add the following script tags to your `index.html`:
 
 ### You can wrap your graphviz code in a code block:
 
-```graphviz
-graph network {
-    layout=circo;
-    node [shape=circle];
-    
-    A -- B;
-    B -- C;
-    C -- D;
-    D -- E;
-    E -- A;
-    A -- C;
-    B -- D;
-}
-```
+    ```graphviz
+    graph network {
+        layout=circo;
+        node [shape=circle];
+        
+        A -- B;
+        B -- C;
+        C -- D;
+        D -- E;
+        E -- A;
+        A -- C;
+        B -- D;
+    }
+    ```
 
 ### Or add an .dot image:
 
